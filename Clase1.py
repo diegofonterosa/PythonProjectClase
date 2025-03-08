@@ -100,9 +100,17 @@ print("NOT True:", not_logico)
 
 # 📌 EJERCICIO PRÁCTICO 2️⃣:
 # 📌 Declara una variable booleana que sea True si 15 es mayor que 8.
+
+mayor = 15>8
+print("15 es mayor que 8:", mayor)
+
 # 📌 Escribe una expresión que use "and" y otra que use "or" y muestra el resultado.
 
+resultado_and = True and False
+print("Resultado de True and False:", resultado_and)
 
+resultado_or = True or False
+print("Resultado de True or False:", resultado_or)
 # -----------------------------------------------------------------------------
 # 📌 3️⃣ CADENAS DE TEXTO (str)
 # -----------------------------------------------------------------------------
@@ -162,6 +170,13 @@ print("Longitud de la palabra:", longitud)
 # 📌 Convierte tu nombre en mayúsculas y minúsculas.
 # 📌 Extrae los primeros 3 caracteres de tu nombre usando slicing.
 
+nombre_completo = "Diego Perez"
+
+print("Longitud del nombre:", len(nombre_completo))
+print("Hola, soy " + nombre_completo + " y estoy aquí para ayudarte.")
+print("Nombre en mayúsculas:", nombre_completo.upper())
+print("Nombre en minúsculas:", nombre_completo.lower())
+print("Primeros 3 caracteres:", nombre_completo[:3])
 
 # -----------------------------------------------------------------------------
 # 📌 FIN DEL SCRIPT 🎯
