@@ -84,5 +84,5 @@ print(f"Tu alias es {alias}")
 numero_decimal = float(input("Introduce un número decimal: "))
 
 print(f" El número redondeado es: {round(numero_decimal,2)}")
-print((f"El cuadrado es: {numero_decimal**2}"))
-print((f"La raíz cuadrada es: {numero_decimal**0.5}"))
+print(f"El cuadrado es: {numero_decimal**2}")
+print(f"La raíz cuadrada es: {numero_decimal**0.5}")
