@@ -27,8 +27,7 @@
 #Ejercicio 3: Manipulación avanzada de cadenas
 #Crea una cadena larga que contenga espacios en blanco al inicio, final, y en medio.
 # Realiza varias operaciones encadenadas como eliminar
-# espacios extremos,
-
+# espacios extremos, covertir a mayúsculas, y dividir la cadena en varias subcadenas usando un separador específico.
 
 cadena = " Esto es un ejemplo con huecos delante y detrás "
 nueva_cadena = cadena.strip().upper().split()
