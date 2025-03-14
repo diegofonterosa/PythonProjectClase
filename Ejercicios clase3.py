@@ -55,7 +55,7 @@ print(f"Tu nombre es {nombre_usu}, tienes {edad} años y vives en {ciudad}. Edad
 #7. Generador de contraseñas aleatorias
 usuario_nombre = input("Introduce tu nombre: ")
 
-contraseña=f"{usuario_nombre[0].upper()}{random.randint(100,900)}+"
+contraseña = f"{usuario_nombre[0].upper()}{random.randint(100,900)}$"
 
 print(f"Tu nueva contraseña es: {contraseña}")
 
