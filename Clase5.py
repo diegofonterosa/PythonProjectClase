@@ -31,6 +31,33 @@ print(persona)
 existe_nombre = "nombre" in persona
 print(existe_nombre)
 
+#ejercio 7.
+#Compara dos valores booleanos
+
+es_mayor_y_registrado = persona["edad"]>18 and persona["registradoEnElCenso"]
+print(es_mayor_y_registrado)
+
+
+#Ejercicio 8.
+#Uso del not con un boolean
+
+no_registrado = not persona["registradoEnElCenso"]
+print(no_registrado)
+
+#Ejercicio 9
+#Elimina duplicados
+
+numeros = [1,2,2,3,4,5,3,4,5,2,1]
+conjunto = set(numeros)
+print(conjunto)
+
+#ejercicio 10
+#compara si dos colecciones tienen los mismos elementos unicos
+
+lista_a=set([1,2,3,4])
+lista_b=set([4,3,2,1])
+mismos_elementos = lista_a==lista_b
+print(mismos_elementos)
 
 #Ejercicio 1: Evaluación de Expresiones Booleanas
 #📌 Objetivo: Evaluar expresiones numéricas que devuelvan valores booleanos.
