@@ -11,6 +11,7 @@ resultado = (f"Potencia: {num1 ** num2}, "
              f"\nMódulo: {num1 % num2}, "
              f"\nMultiplicación: {num3 * num4}, "
              f"\nComplejo: {num5}")
+
 print(resultado)
 
 
@@ -22,6 +23,7 @@ print(resultado)
 num_int, num_float = 8, 3.5
 cadena1, cadena2, cadena3 = "Resultado: ","La suma es: ", "y la división es: "
 resultado = cadena1 + " " + cadena2 + " " + str(num_int + num_float) + " " + cadena3 + " " + str(num_int/num_float)
+
 print(resultado)
 
 #Ejercicio 3: Manipulación avanzada de cadenas
@@ -31,6 +33,7 @@ print(resultado)
 
 cadena = " Esto es un ejemplo con huecos delante y detrás "
 nueva_cadena = cadena.strip().upper().split()
+
 print(nueva_cadena)
 
 #Ejercicio 4: Índices y subcadenas
@@ -41,6 +44,7 @@ print(nueva_cadena)
 cadena_extensa = "Python en un lenguaje que me encanta y que me da mucho trabajo."
 subcadena = cadena_extensa[0:6]+ "" + cadena_extensa[11:20] + "" + cadena_extensa [-9:]
 resultado = subcadena[::-1]
+
 print(resultado)
 
 #Ejercicio 5: Formato y conversión numérica
@@ -50,6 +54,7 @@ print(resultado)
 
 entero, flotante, complejo = 12, 367.7864574, 5+3j
 formato = f"Entero: {entero}, Flotante: {flotante:.2f}, Notación cintífica: {flotante:.2e} , Complejo: {complejo}"
+
 print(formato)
 
 #Ejercicio 6: Operaciones combinadas entre números y cadenas
@@ -62,6 +67,7 @@ numero2 = 23
 cadena1 = "El resultado es"
 cadena2 = "y el otro resultado es"
 resultado = f"{cadena1} {numero1+numero2}, {cadena2} {numero1-numero2}"
+
 print(resultado)
 
 #Ejercicio 7: Cálculo del área y perímetro
@@ -76,6 +82,7 @@ area_circulo = 3.14*radio**2
 perimetro_circulo = 2*3.14*radio
 area_triangulo = (largo*altura)/2
 resultado = f"Rectángulo: el área es {area_rectangulo}, y  el perímetro {perimetro_rectangulo}; Cículo: el área es {area_circulo}, y el perímetro {perimetro_circulo}; Triángulo: el área es {area_triangulo}"
+
 print(resultado)
 
 #Ejercicio 8: Análisis de texto complejo
@@ -88,6 +95,7 @@ contar_carac = len(cadena_ext)
 contar_palabras = len(cadena_ext.split())
 mayus = cadena_ext.upper()
 resultado = f"EL total de carácteres es: {contar_carac}, el total de palabras es: {contar_palabras} y el texto en mayúsculas es: {mayus}"
+
 print(resultado)
 
 #Ejercicio 9: Fórmula cuadrática
@@ -100,6 +108,7 @@ discriminante = (b ** 2 - 4 * a * c) ** 0.5
 raiz1 = (-b + discriminante) / (2 * a)
 raiz2 = (-b - discriminante) / (2 * a)
 resultado = f"Coeficientes: a={a}, b={b}, c={c}. Raíces: {raiz1}, {raiz2}"
+
 print(resultado)
 
 #Ejercicio 10: Manejo y transformación de datos personales
@@ -110,4 +119,5 @@ print(resultado)
 nombre, edad, peso, altura = "Diego", 43, 90, 1.70
 IMC = peso/altura**2
 resultado = f"Tu nombre es {nombre}, tienes {edad} años, tu peso es {peso}, tu altura es {altura} y tu imc es {IMC:.2f}"
+
 print(resultado)
