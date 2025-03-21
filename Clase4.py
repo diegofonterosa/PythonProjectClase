@@ -2,7 +2,7 @@
 #Defines cinco variables numéricas distintas (int, float, complex)
 #realiza diversas operaciones matemáticas (potenciación, division entera, módulo)
 #imprime los resultados formateados en una cadena clara y descriptiva
-from Clase1 import mayusculas
+
 
 num1 = 5
 num2, num3, num4, num5 = 10, 3, 8.7, 4+2j
@@ -62,7 +62,6 @@ numero2 = 23
 cadena1 = "El resultado es"
 cadena2 = "y el otro resultado es"
 resultado = f"{cadena1} {numero1+numero2}, {cadena2} {numero1-numero2}"
-resultado = f"{cadena1} {numero1*numero2}, {cadena2} {numero1/numero2}"
 print(resultado)
 
 #Ejercicio 7: Cálculo del área y perímetro
@@ -87,8 +86,8 @@ print(resultado)
 cadena_ext = "Estos ejercicios te permitirán profundizar en la teoría básica de números y cadenas en Python de manera práctica y sin recurrir a estructuras repetitivas."
 contar_carac = len(cadena_ext)
 contar_palabras = len(cadena_ext.split())
-mayusculas = cadena_ext.upper()
-resultado = f"EL total de carácteres es: {contar_carac}, el total de palabras es: {contar_palabras} y el texto en mayúsculas es: {mayusculas}"
+mayus = cadena_ext.upper()
+resultado = f"EL total de carácteres es: {contar_carac}, el total de palabras es: {contar_palabras} y el texto en mayúsculas es: {mayus}"
 print(resultado)
 
 #Ejercicio 9: Fórmula cuadrática
