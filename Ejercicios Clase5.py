@@ -3,7 +3,6 @@
 #Crea tres variables numéricas con valores diferentes.
 #Compara los valores entre sí (>, <, >=, <=, ==, !=).
 #Almacena los resultados en nuevas variables booleanas y muéstralos.
-from Clase3 import numero_a_cadena
 
 numero1 = 34
 numero2 = 685
@@ -16,12 +15,12 @@ menor_o_igual = numero3 <= numero2
 igual = numero1 == numero2
 distinto = numero2 != numero3
 
-print("¿Es el numero1 mayor que el numero2?", mayor)
-print("¿Es el numero3 menor que el numero1?", menor)
-print("¿Es el numero2 mayor o igual que el numero3?", mayor_o_igual)
-print("¿Es el numero3 menor o igual que el numero2?", menor_o_igual)
-print("¿Es el numero1 igual que el numero2?", igual)
-print("¿Es el numero2 distinto que el numero3?", distinto)
+print(f"¿Es el numero1 mayor que el numero2? {mayor}")
+print(f"¿Es el numero3 menor que el numero1? {menor}")
+print(f"¿Es el numero2 mayor o igual que el numero3? {mayor_o_igual}")
+print(f"¿Es el numero3 menor o igual que el numero2? {menor_o_igual}")
+print(f"¿Es el numero1 igual que el numero2? {igual}")
+print(f"¿Es el numero2 distinto que el numero3? {distinto}")
 
 #Ejercicio 2: Propiedades y manipulación de cadenas
 #📌 Objetivo: Trabajar con cadenas y métodos integrados de Python.
@@ -56,9 +55,7 @@ suma = verdadero + falso
 multiplicacion = verdadero * falso
 resta = falso - verdadero
 
-print(f"El resultado de la suma es {suma}")
-print(f"El resultado de la multiplicacion es {multiplicacion}")
-print(f"El resultado de la resta es {resta}")
+print(f"El resultado de la suma es {suma}, el resultado de la multiplicacion es {multiplicacion} y el resultado de la resta es {resta}")
 
 #Ejercicio 4: Extracción de caracteres en una cadena
 #📌 Objetivo: Extraer partes de una cadena utilizando índices y slicing.
@@ -87,7 +84,6 @@ print(f"El tipo de dato es {type(numero_a_cadena)}")
 cadena_numero = "90"
 numero_a_entero = int(cadena_numero)
 print(f"El tipo de dato es {type(numero_a_entero)}")
-
 
 print(bool(""))
 print(bool("Texto"))
