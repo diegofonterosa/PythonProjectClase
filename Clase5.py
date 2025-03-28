@@ -117,12 +117,34 @@ print(mismos_elementos)
 #Concatenar cadenas con números usando str().
 #Multiplicar una cadena para repetirla varias veces.
 
+# concatenar un número con una cadena usando str()
+edad = 25
+mensaje = "Tengo " + str(edad) + " años."
+print(mensaje)  # "Tengo 25 años."
+# repetir una cadena varias veces
+repetido = "Hola " * 3
+print(repetido)  # "Hola Hola Hola "
+
+
 #Ejercicio 6: Operaciones con Caracteres y Códigos ASCII
 #📌 Objetivo: Explorar caracteres y su representación en ASCII.
 #Obtén el código ASCII de la letra 'A'.
 #Convierte un número en su carácter ASCII correspondiente.
 
+# obtengo el código ASCII de una letra
+codigo = ord('A')
+print(codigo)  # 65
+# convierto un número en un carácter
+letra = chr(66)
+print(letra)  # "B"
+
+
 #Ejercicio 7: Evaluación de Expresiones Lógicas
 #📌 Objetivo: Trabajar con operadores lógicos (and, or, not).
 #Evalúa expresiones lógicas combinando números y operadores lógicos.
 #Muestra los resultados.
+
+# evalúo expresiones con operadores lógicos
+print(10 > 5 and 3 < 8)  # True porque ambas condiciones son verdaderas
+print(5 == 5 or 2 > 10)  # True porque al menos una condición es verdadera
+print(not (4 == 4 and 3 > 1))  # False porque el 'not' invierte el resultado
