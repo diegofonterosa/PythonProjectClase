@@ -10,3 +10,4 @@ elif numero % 5 == 0:
     print(f"{numero} es múltiplo de 5")
 else:
     print(f"{numero} no es múltiplo ni de 3 ni de 5")
+
