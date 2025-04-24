@@ -9,5 +9,4 @@ for i in range(0,numero+1):
         # Sumo uno al contador de pares
         pares = pares + 1
 
-
 print(f"Número de pares: {pares}")
